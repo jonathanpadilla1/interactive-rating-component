@@ -62,13 +62,14 @@ body{
     .rating-component .numbers p{
         /* border: 1px solid red; */
         background-color: rgba(83, 74, 74, 0.486);
-        color: hsl(217, 12%, 63%);
+        color: rgb(149, 158, 172);
         padding: 1em;
         padding-top: .5em;
         padding-bottom: .5em;
         border-radius: 50%;
         font-size: 1.6em;
     }
+
 
     .thankyou-component{
         /* border: 1px solid red; */
@@ -105,7 +106,7 @@ body{
     .rating-component .numbers p{
         /* border: 1px solid red; */
         background-color: rgba(83, 74, 74, 0.486);
-        color: hsl(217, 12%, 63%);
+        color: rgb(149, 158, 172);
         padding: 1em;
         padding-top: .5em;
         padding-bottom: .5em;
@@ -193,6 +194,10 @@ body{
 
 /* /////////////////////////  THANK YOU COMPONENT  //////////////////////////// */
 
+
+.thankyou-component{
+    height: auto;
+}
 
 
 .thankyou-component .selected{
