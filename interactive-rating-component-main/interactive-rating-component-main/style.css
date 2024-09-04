@@ -1,0 +1,220 @@
+html{
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+@media only screen and (max-width: 600px) {
+    .rating-component{
+        /* border: 1px solid red; */
+        border-radius: 35px;
+        background-color: hsl(213, 19%, 18%);
+        width: 75%;
+        margin: auto;
+        margin-top: 2em;
+        padding: 2em;
+    }
+    
+    .rating-component .numbers p{
+        /* border: 1px solid red; */
+        background-color: rgba(83, 74, 74, 0.486);
+        color: hsl(217, 12%, 63%);
+        padding: 1em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        border-radius: 50%;
+        font-size: 1.2em;
+    }
+
+    .thankyou-component{
+        /* border: 1px solid red; */
+        border-radius: 35px;
+        background-color: hsl(213, 19%, 18%);
+        width: 75%;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 2em;
+        text-align: center;
+    }
+    
+    .thankyou-component .thanks-image{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .rating-component{
+        /* border: 1px solid red; */
+        border-radius: 35px;
+        background-color: hsl(213, 19%, 18%);
+        width: 75%;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 2em;
+        font-size: 1.5em;
+    }
+
+    .rating-component .numbers p{
+        /* border: 1px solid red; */
+        background-color: rgba(83, 74, 74, 0.486);
+        color: rgb(149, 158, 172);
+        padding: 1em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        border-radius: 50%;
+        font-size: 1.6em;
+    }
+
+
+    .thankyou-component{
+        /* border: 1px solid red; */
+        border-radius: 35px;
+        background-color: hsl(213, 19%, 18%);
+        width: 75%;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 2em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .thankyou-component .thanks-image{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .rating-component{
+        /* border: 1px solid red; */
+        border-radius: 35px;
+        background-color: hsl(213, 19%, 18%);
+        width: 50%;
+        max-width: 30em;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 2em;
+        font-size: 1.8em;
+    }
+
+    .rating-component .numbers p{
+        /* border: 1px solid red; */
+        background-color: rgba(83, 74, 74, 0.486);
+        color: rgb(149, 158, 172);
+        padding: 1em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        border-radius: 50%;
+        font-size: 1.4em;
+    }
+
+    .thankyou-component{
+        /* border: 1px solid red; */
+        border-radius: 35px;
+        background-color: hsl(213, 19%, 18%);
+        width: 50%;
+        max-width: 30em;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 2em;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    
+    .thankyou-component .thanks-image{
+        width: 50%;
+    }
+}
+
+.rating-component .star{
+    /* border: 1px solid red; */
+    background-color: rgba(83, 74, 74, 0.486);;
+    padding: 1em;
+    border-radius: 50%;
+    width: 5%;
+}
+
+.rating-component .question{
+    color: white;
+}
+.rating-component .text-rating{
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-component .numbers{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rating-component .numbers p{
+    transition: .4s;
+}
+
+.selected {
+    background-color: blue;
+    color: white;
+}
+
+.rating-component .numbers p:hover{
+    background-color: white;
+    color: black;
+}
+
+.rating-component .numbers p:active{
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+}
+
+.rating-component .submit{
+    /* border: 1px solid red; */
+    background-color: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 2em;
+    padding-top: .7em;
+    padding-bottom: .5em;
+    transition: ease-out .4s;
+}
+.rating-component .submit:hover{
+    box-shadow: inset 30em 0 0 0 white;
+}
+.rating-component .submit:active{
+    transform: translateY(4px);
+}
+
+
+
+/* /////////////////////////  THANK YOU COMPONENT  //////////////////////////// */
+
+
+.thankyou-component{
+    display: none;
+}
+
+
+.thankyou-component .selected{
+    border-radius: 35px;
+    background-color: rgba(83, 74, 74, 0.486);
+    color: hsl(25, 97%, 53%);
+    padding: .5em;
+}
+
+.thankyou-component .thanks{
+    color: white;
+}
+
+.thankyou-component .text-thanks{
+    color: hsl(217, 12%, 63%);
+}
+
+.overlord{
+    margin-top: 40%;
+}
